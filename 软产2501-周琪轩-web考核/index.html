@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 页头 / 导航 -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="logo">🎓 My Homepage</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">关于我</a></li>
+                <li><a href="#future" class="nav-link">未来规划</a></li>
+                <li><a href="#club" class="nav-link">加入俱乐部</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
+        </nav>
+    </header>
+
+    <!-- 主体内容 -->
+    <main class="main">
+        <!-- 首页 / Hero -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <div class="avatar">
+                    <span class="avatar-icon">👨‍💻</span>
+                </div>
+                <h1 class="hero-title">周琪轩</h1>
+                <p class="hero-subtitle">武汉科技大学 · 计算机科学与技术学院 · 大二</p>
+                <div class="hero-tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">深度学习</span>
+                    <span class="tag">AI agent</span>
+                    <span class="tag">web前端开发</span>
+                </div>
+                <a href="#about" class="btn-primary">了解更多 ↓</a>
+            </div>
+        </section>
+
+        <!-- 关于我 -->
+        <section id="about" class="section">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-grid">
+                <div class="card">
+                    <h3>📚 基本信息</h3>
+                    <ul class="info-list">
+                        <li><strong>姓名：</strong>周琪轩</li>
+                        <li><strong>学校：</strong>武汉科技大学</li>
+                        <li><strong>专业：</strong>软件工程(产业)2501</li>
+                        <li><strong>年级：</strong>大二</li>
+                        <li><strong>学号：</strong>202513407265</li>
+                        <li><strong>QQ：</strong>1413995229</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🎯 兴趣爱好</h3>
+                    <ul class="info-list">
+                        <li>💻 python、java编程与深度学习实践，AIGC制作</li>
+                        <li>🎮 学习最新agent、逛ai社区</li>
+                        <li>📖 阅读ai新模型测评，关注大模型及新开源项目</li>
+                        <li>🏸 打篮球、跑步、健身</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🛠️ 技能基础</h3>
+                    <ul class="info-list">
+                        <li>C 、C++语言基础语法</li>
+                        <li>HTML / CSS 入门</li>
+                        <li>JavaScript 基础学习中</li>
+                        <li>了解数据结构与算法入门</li>
+                        <li>深度学习入门</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>✨ 个人特点</h3>
+                    <ul class="info-list">
+                        <li>学习主动，遇到问题喜欢钻研</li>
+                        <li>有耐心，愿意花时间调 bug</li>
+                        <li>喜欢团队协作和交流分享</li>
+                        <li>对新技术充满好奇心</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 未来规划 -->
+        <section id="future" class="section">
+            <h2 class="section-title">未来规划</h2>
+            
+            <div class="direction-tabs">
+                <button class="tab-btn active" data-tab="tab1">考研深造</button>
+                <button class="tab-btn" data-tab="tab2">就业方向</button>
+                <button class="tab-btn" data-tab="tab3">方向比较</button>
+            </div>
+
+            <div class="tab-content active" id="tab1">
+                <div class="card">
+                    <h3>🎓 目标方向：考研深造</h3>
+                    <p><strong>选择原因：</strong>计算机技术更新快，希望通过研究生阶段深入研究某个方向（如后端开发、人工智能），提升理论深度和科研能力，为未来从事更有挑战性的技术工作打下基础。</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>大二上</h4>
+                            <p>打牢专业基础：学好高数、线代，巩固 C++/Java 编程，刷数据结构与算法题，保持较高绩点。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>大二下 — 大三</h4>
+                            <p>确定考研目标院校和专业方向，开始系统复习数学和英语，参与项目或竞赛积累经历。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>大四</h4>
+                            <p>全力备考，参加初试和复试，争取上岸目标院校。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab2">
+                <div class="card">
+                    <h3>💼 备选方向：就业</h3>
+                    <p><strong>考虑原因：</strong>如果在项目实践中发现自己更适合工程实践，也会直接就业。目标是成为一名ai应用工程师，在实际工作中积累经验。</p>
+                    <p><strong>阶段目标：</strong>大二结束前掌握 Java + 深度学习框架（如 TensorFlow、PyTorch）+基础agent编程，完成 1-2 个完整项目；大三争取实习机会。</p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab3">
+                <div class="card">
+                    <h3>⚖️ 我的思考与比较</h3>
+                    <p>目前还在探索阶段，两个方向都不排斥。我会在大二结束前根据以下几点做出最终决定：</p>
+                    <ul class="info-list">
+                        <li>专业课程的成绩和兴趣偏向</li>
+                        <li>项目实践中的收获和成就感</li>
+                        <li>与学长学姐交流后的真实了解</li>
+                    </ul>
+                    <p>无论选择哪条路，我认为扎实的编程基础和项目能力都是必须的。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 加入俱乐部 -->
+        <section id="club" class="section">
+            <h2 class="section-title">我想在俱乐部学什么</h2>
+            <div class="club-grid">
+                <div class="card highlight-card">
+                    <h3>☕ Java 后端开发</h3>
+                    <p>系统学习 Java 语言进阶、Spring Boot、MyBatis 等后端框架，能够独立开发完整的 Web 后端项目。</p>
+                    <div class="goal-progress">
+                        <div class="progress-label">学习目标进度</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card highlight-card">
+                    <h3>🌐 Web 前端</h3>
+                    <p>深入学习 HTML/CSS/JavaScript，掌握 Vue3 框架，能够写出美观、交互流畅的前端页面。</p>
+                    <div class="goal-progress">
+                        <div class="progress-label">学习目标进度</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="20"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card highlight-card">
+                    <h3>🗄️ 数据库与算法</h3>
+                    <p>掌握 MySQL 数据库设计与优化，坚持刷算法题，提升代码能力和逻辑思维。</p>
+                    <div class="goal-progress">
+                        <div class="progress-label">学习目标进度</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="25"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card highlight-card">
+                    <h3>🤝 项目协作与竞赛</h3>
+                    <p>希望参与俱乐部的实际项目，学习 Git 协作流程，有机会参加蓝桥杯、天梯赛等竞赛，积累实战经验。</p>
+                    <div class="goal-progress">
+                        <div class="progress-label">学习目标进度</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>📌 我的具体目标</h3>
+                <ol class="info-list">
+                    <li><strong>半年内：</strong>学完 Java SE 核心内容，完成第一个命令行小程序</li>
+                    <li><strong>一年内：</strong>掌握 Spring Boot，参与或独立完成一个 Web 全栈项目</li>
+                    <li><strong>长期：</strong>成为能独立负责模块的开发者，具备参加竞赛获奖的实力</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页尾 -->
+    <footer class="footer">
+        <p>© 2026 10 15 · 武汉科技大学 · JAVA俱乐部招新考核</p>
+        <p class="footer-note">用 ❤️ 和 HTML/CSS/JS 制作</p>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button class="back-to-top" id="backToTop" title="回到顶部">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
